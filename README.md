@@ -33,25 +33,13 @@ rm -r ~/smart_arm_stack_researchonly_installation
 
 ## Dependencies
 
-1. [Ubuntu 20.04 Focal](https://releases.ubuntu.com/20.04/)
+1. [SmartArmStack LGPLv3 packages](https://github.com/SmartArmStack/smart_arm_stack) and its dependencies.
 
-2. [ROS Noetic](http://wiki.ros.org/noetic/Installation/Ubuntu)
-
-3. [DQ Robotics](https://dqrobotics.github.io/) Development Branch (***NOT RELEASE***)
-
-```sh
-sudo add-apt-repository ppa:dqrobotics-dev/development
-sudo apt-get update
-sudo apt-get install libdqrobotics*
-```
-
-4. QtNetwork
+2. QtNetwork
 
 ```sh
 sudo apt install libqt5network5
 ```
-
-5. [SmartArmStack LGPLv3 packages](https://github.com/SmartArmStack/smart_arm_stack)
 
 ## Issues
 
